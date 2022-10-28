@@ -1,0 +1,19 @@
+{
+  "name": "CheatSheets",
+
+  "description": "cheatsheet extension",
+
+  "version": "1.0",
+
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
